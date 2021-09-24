@@ -302,6 +302,11 @@ h6 {
   width: 100%;
 }
 
+#links{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .post-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
@@ -326,6 +331,7 @@ h6 {
 
 .post-preview {
   background-color: #fff;
+  border-top: 0.5px solid black;
   padding: 15px;
 }
 
